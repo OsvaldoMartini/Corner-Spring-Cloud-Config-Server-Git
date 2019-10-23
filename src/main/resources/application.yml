@@ -8,4 +8,6 @@ spring:
         git:
           uri: https://github.com/OsvaldoMartini/PPMTool-Spring-Cloud-Config-Wa-Tolls
           #username: uname
-          #password: pass          
+          #password: pass
+          search-paths:
+            - 'statio*'
