@@ -10,4 +10,12 @@ spring:
           #username: uname
           #password: pass
           search-paths:
-            - 'statio*'
+            - 'station*'
+          repos:
+            perf:
+                pattern:
+                    - "*/perf"
+                uri: https://github.com/OsvaldoMartini/PPMTool-Spring-Cloud-Config-Wa-Tolls-Perf
+                search-paths:
+                    - 'station*'
+          

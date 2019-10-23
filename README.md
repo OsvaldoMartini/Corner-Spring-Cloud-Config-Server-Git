@@ -63,3 +63,8 @@
 	If Don't exist it returns the 'Defaul One'
 	
 	localhost:8888/s1rates-MellGibson.json
+	
+	
+### Sear  for the Performance GitHub Repo
+
+	localhost:8888/s1rates/perf	
