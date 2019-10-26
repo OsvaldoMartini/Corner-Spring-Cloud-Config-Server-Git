@@ -8,6 +8,8 @@ spring:
   cloud:
     config:
       server:
+        encrypt:
+          enabled: false        
         git:
           uri: https://github.com/OsvaldoMartini/PPMTool-Spring-Cloud-Config-Wa-Tolls
           #username: uname
@@ -20,5 +22,4 @@ spring:
                     - "*/perf"
                 uri: https://github.com/OsvaldoMartini/PPMTool-Spring-Cloud-Config-Wa-Tolls-Perf
                 search-paths:
-                    - 'station*'
-          
+                    - 'station*'
