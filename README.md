@@ -68,3 +68,73 @@
 ### Sear  for the Performance GitHub Repo
 
 	localhost:8888/s1rates/perf	
+	
+	
+###	After Added 'Spring Boot Starter Secutiry'
+````
+	dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-security</artifactId>
+	</dependency>	
+````
+	
+	* It Generates the Automatically Password:
+````
+	Using default security password: 0b975118-03f9-48a5-b32b-714ef0457a45
+````
+
+* We get from : 'localhost:8888/s1rates/default'
+````
+{
+    "timestamp": 1572101614461,
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/s1rates/default"
+}
+````
+
+*To Set Secutiry Enabled to False:
+
+### Don't Forget to Recompile All the code 'mvn clean install'
+
+> In the 'yaml' file:
+
+````
+'application.yml'
+````
+
+#####
+
+````
+---
+server:
+  port: 8888
+secutiry:
+  basic:
+    enable: false
+spring:
+  cloud:
+    config:
+	...
+```
+
+#### With User and Paswrod
+* Add Authorization (Autorizathio Tab in the IDE Resquest Tools)
+  
+  'Basic Auth'  user:martini pwd: martini as Expected
+
+````
+security:
+  basic:
+    enabled: true  
+  user:
+    name: martini
+    password: martini
+````
+
+* The Authorization adds Temporaty key into the Header Request
+
+````
+[{"key":"Authorization","system":true,"value":"Basic bWFydGluaXI6bWFydGluaQ==","enabled":true,"disableEdit":true}]
+````
