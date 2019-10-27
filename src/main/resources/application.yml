@@ -1,8 +1,11 @@
 ---
 server:
   port: 8888
-security:  basic:    enabled: true  
-  user:    name: martini
+security:
+  basic:
+    enabled: false  
+  user:
+    name: martini
     password: martini
 spring:
   cloud:
@@ -22,4 +25,4 @@ spring:
                     - "*/perf"
                 uri: https://github.com/OsvaldoMartini/PPMTool-Spring-Cloud-Config-Wa-Tolls-Perf
                 search-paths:
-                    - 'station*'
+                    - 'station*'
