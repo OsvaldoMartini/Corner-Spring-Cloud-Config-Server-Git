@@ -3,7 +3,7 @@ server:
   port: 8888
 security:
   basic:
-    enabled: false  
+    enabled: true  
   user:
     name: martini
     password: martini
