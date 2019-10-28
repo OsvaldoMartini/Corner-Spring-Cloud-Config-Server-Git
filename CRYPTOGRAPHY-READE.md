@@ -2,7 +2,7 @@
 
   Rename the files in the folder:
   
-  C:\Program Files\Java\jdk1.8.0_162\jre\lib\security\policy\unlimited
+  C:\Program Files\Java\jdk1.8.0_162\jre\lib\security
   
   'local_policy.jar'  Rename to 'local_policy-OLD.jar'
   
@@ -41,7 +41,7 @@ It generates random encrypted string:
  27baedce4fa80f69e94a3617954501422931f77c1f879faa3dd0c763d803d32ab57aca8cb941761a3c0c28efd0fdbf9dcd5cfa52c009040a4f2db4f390b4436843e418ab87e94e250c93189193fc7bcc
 ```` 
 
-Use the same to Decryp:
+Use the same to Decrypt:
 
 Url
 
