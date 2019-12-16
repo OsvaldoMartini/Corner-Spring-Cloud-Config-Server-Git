@@ -12,7 +12,7 @@ spring:
     config:
       server:
         encrypt:
-          enabled: false        
+          enabled: true        
         git:
           uri: file://C:/Martini/Projects/PPMTool-Spring-Cloud-WorkSpace/PPMTool-Spring-Cloud-Config-Wa-Tolls
           #uri: https://github.com/OsvaldoMartini/PPMTool-Spring-Cloud-Config-Wa-Tolls
