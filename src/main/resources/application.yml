@@ -15,8 +15,8 @@ spring:
           enabled: true        
         git:
           #uri: file://D:/Projetos/PPMTool-Spring-Cloud-WorkSpace/PPMTool-Spring-Cloud-Config-Wa-Tolls 
-          uri: file://C:/Martini/Projects/PPMTool-Spring-Cloud-WorkSpace/PPMTool-Spring-Cloud-Config-Wa-Tolls
-          #uri: https://github.com/OsvaldoMartini/PPMTool-Spring-Cloud-Config-Wa-Tolls
+          #uri: file://C:/Martini/Projects/PPMTool-Spring-Cloud-WorkSpace/PPMTool-Spring-Cloud-Config-Wa-Tolls
+          uri: https://github.com/OsvaldoMartini/PPMTool-Spring-Cloud-Config-Wa-Tolls
           #username: uname
           #password: pass
           search-paths:
