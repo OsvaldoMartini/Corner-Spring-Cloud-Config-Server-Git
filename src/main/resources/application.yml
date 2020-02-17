@@ -14,9 +14,8 @@ spring:
         encrypt:
           enabled: true        
         git:
-          #uri: file://D:/Projetos/PPMTool-Spring-Cloud-WorkSpace/PPMTool-Spring-Cloud-Config-Wa-Tolls 
-          #uri: file://C:/Martini/Projects/PPMTool-Spring-Cloud-WorkSpace/PPMTool-Spring-Cloud-Config-Wa-Tolls
-          uri: https://github.com/OsvaldoMartini/PPMTool-Spring-Cloud-Config-Wa-Tolls
+          uri: file://C:/Martini/Projects/PPMTool-Spring-Cloud-WorkSpace/PST2635-Corner-Profilers-App-Config
+          #uri: https://dev.bitbucket.corner.ch/scm/qa/pst2635-corner-profilers-app-config.git
           #username: uname
           #password: pass
           search-paths:
@@ -25,8 +24,7 @@ spring:
             perf:
                 pattern:
                     - "*/perf"
-                #uri: file://D:/Projetos/PPMTool-Spring-Cloud-WorkSpace/PPMTool-Spring-Cloud-Config-Wa-Tolls-Perf 
-                uri: file://C:/Martini/Projects/PPMTool-Spring-Cloud-WorkSpace/PPMTool-Spring-Cloud-Config-Wa-Tolls-Perf
-                #uri: https://github.com/OsvaldoMartini/PPMTool-Spring-Cloud-Config-Wa-Tolls-Perf
+                uri: file://C:/Martini/Projects/PPMTool-Spring-Cloud-WorkSpace/PST2635-Corner-Profilers-App-Config
+                #uri: https://dev.bitbucket.corner.ch/scm/qa/pst2635-corner-profilers-app-config.git-Perf
                 search-paths:
                     - 'station*'

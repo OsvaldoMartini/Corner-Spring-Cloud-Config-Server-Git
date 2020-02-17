@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.shifthunter.ppmtool</groupId>
-	<artifactId>ppmtool-config-server-git</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<groupId>ch.corner.profilers.config</groupId>
+	<artifactId>profilers-app-config-server-Git</artifactId>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
-	<name>PPMTool-Spring-Cloud-M2-Config-Server-Git</name>
-	<description>PPMTool Spring Cloud Config Server Git</description>
+	<name>Corner-Profilers-App-Config-Server-Git</name>
+	<description>Corner Profilers App Config Server Git</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
