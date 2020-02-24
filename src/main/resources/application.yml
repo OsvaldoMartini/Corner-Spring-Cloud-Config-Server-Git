@@ -15,11 +15,12 @@ spring:
           enabled: true        
         git:
           #uri: file://C:/Martini/Projects/PPMTool-Spring-Cloud-WorkSpace/PST2635-Corner-Profilers-App-Config
-          uri: file://C:/Martini/Projects/PPMTool-Spring-Cloud-WorkSpace/Corner-Spring-Cloud-Config-QA
+          #uri: file://C:/Martini/Projects/PPMTool-Spring-Cloud-WorkSpace/Corner-Spring-Cloud-Config-QA
           #uri: file://D:/Projects/PPMTool-Spring-Cloud-Workspace/Corner-Spring-Cloud-Config-QA
           #uri: https://dev.bitbucket.corner.ch/scm/qa/pst2635-corner-profilers-app-config.git
-          #username: uname
-          #password: pass
+          uri: https://github.com/OsvaldoMartini/Corner-Spring-Cloud-Config-QA
+          username: user
+          password: pass
           search-paths:
             - 'station*'
           repos:
@@ -27,8 +28,9 @@ spring:
                 pattern:
                     - "*/perf"
                 #uri: file://C:/Martini/Projects/PPMTool-Spring-Cloud-WorkSpace/PST2635-Corner-Profilers-App-Config
-                uri: file://C:/Martini/Projects/PPMTool-Spring-Cloud-WorkSpace/Corner-Spring-Cloud-Config-QA
+                #uri: file://C:/Martini/Projects/PPMTool-Spring-Cloud-WorkSpace/Corner-Spring-Cloud-Config-QA
                 #uri: file://D:/Projects/PPMTool-Spring-Cloud-Workspace/Corner-Spring-Cloud-Config-QA
                 #uri: https://dev.bitbucket.corner.ch/scm/qa/pst2635-corner-profilers-app-config.git-Perf
+                uri: https://github.com/OsvaldoMartini/Corner-Spring-Cloud-Config-QA
                 search-paths:
                     - 'station*'
